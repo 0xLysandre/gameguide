@@ -109,12 +109,25 @@
   </main>
 
   <footer class="page-foot">
-    <span>GAMEGUIDE v1.0</span> · <span>built for fun, no data leaves your machine</span>
+    <span>GAMEGUIDE v1.0</span> · <span>built for fun, no data leaves your machine</span> ·
+    <button class="donate-link" id="donate-open">♢ tip the dev</button>
   </footer>
+
+  <!-- ===================== DONATIONS MODAL ===================== -->
+  <div class="donate-overlay" id="donate-overlay" hidden>
+    <div class="donate-modal" role="dialog" aria-modal="true" aria-labelledby="donate-title">
+      <button class="donate-close" id="donate-close" aria-label="Close">✕</button>
+      <h2 class="donate-title" id="donate-title">♢ TIP THE DEV</h2>
+      <p class="donate-sub">No pressure — but if GameGuide found you a banger, crypto tips keep the neon on.</p>
+      <div class="donate-coins" id="donate-coins"></div>
+      <p class="donate-foot">Tap an address to copy. Thank you ✦</p>
+    </div>
+  </div>
 
   <script src="js/games.js"></script>
   <script src="js/questions.js"></script>
   <script src="js/sound.js"></script>
+  <script src="js/donate.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
