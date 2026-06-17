@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GameGuide — a gamified retro quiz that finds your next favorite video game." />
+  <title>GAMEGUIDE // FIND YOUR NEXT GAME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Animated scanline + grid background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-sun" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Top HUD -->
+  <header class="hud" id="hud" hidden>
+    <div class="hud-block">
+      <span class="hud-label">LVL</span>
+      <span class="hud-value" id="hud-level">1</span>
+    </div>
+    <div class="hud-block hud-xp">
+      <span class="hud-label">XP</span>
+      <div class="xp-bar"><div class="xp-fill" id="xp-fill"></div></div>
+      <span class="hud-value" id="hud-xp">0</span>
+    </div>
+    <div class="hud-block">
+      <span class="hud-label">COMBO</span>
+      <span class="hud-value combo" id="hud-combo">x1</span>
+    </div>
+    <button class="sound-toggle" id="sound-toggle" title="Toggle sound" aria-label="Toggle sound">♪ ON</button>
+  </header>
+
+  <main class="stage" id="stage">
+
+    <!-- ===================== START SCREEN ===================== -->
+    <section class="screen screen--start is-active" id="screen-start" aria-label="Start screen">
+      <div class="glitch-wrap">
+        <h1 class="title glitch" data-text="GAMEGUIDE">GAMEGUIDE</h1>
+      </div>
+      <p class="subtitle">// THE QUIZ THAT FINDS YOUR NEXT OBSESSION_</p>
+      <p class="blurb">
+        Answer a few loud questions. We crunch your vibe against
+        <strong id="game-count">0</strong> games and hand you your destiny.
+      </p>
+      <button class="btn btn--huge press-start" id="btn-start">
+        <span class="press-blink">▶ INSERT COIN</span>
+      </button>
+      <p class="hint">no signup · no spreadsheet · just chaos</p>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track" id="marquee-track"></div>
+      </div>
+    </section>
+
+    <!-- ===================== QUIZ SCREEN ===================== -->
+    <section class="screen screen--quiz" id="screen-quiz" aria-label="Quiz" hidden>
+      <div class="quiz-top">
+        <div class="progress">
+          <div class="progress-fill" id="progress-fill"></div>
+          <span class="progress-label" id="progress-label">01 / 10</span>
+        </div>
+      </div>
+
+      <div class="question-card" id="question-card">
+        <span class="q-tag" id="q-tag">QUESTION</span>
+        <h2 class="question" id="question-text">...</h2>
+        <div class="answers" id="answers"></div>
+      </div>
+
+      <div class="quiz-foot">
+        <button class="btn btn--ghost" id="btn-back">◀ BACK</button>
+        <span class="floaty" id="xp-floaty" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- ===================== CALCULATING SCREEN ===================== -->
+    <section class="screen screen--loading" id="screen-loading" aria-label="Calculating" hidden>
+      <h2 class="calc-title glitch" data-text="CRUNCHING...">CRUNCHING...</h2>
+      <div class="loader-bar"><div class="loader-fill" id="loader-fill"></div></div>
+      <p class="calc-log" id="calc-log">booting matchmaker.exe</p>
+    </section>
+
+    <!-- ===================== RESULTS SCREEN ===================== -->
+    <section class="screen screen--results" id="screen-results" aria-label="Results" hidden>
+      <p class="results-kicker">YOUR DESTINY HAS BEEN COMPILED</p>
+      <h2 class="results-title glitch" data-text="TOP MATCH" id="results-title">TOP MATCH</h2>
+
+      <div class="hero-match" id="hero-match"></div>
+
+      <h3 class="also-title">ALSO IN YOUR ORBIT ▾</h3>
+      <div class="match-grid" id="match-grid"></div>
+
+      <div class="profile-card" id="profile-card"></div>
+
+      <div class="achievements" id="achievements-wrap">
+        <h3 class="ach-title">★ ACHIEVEMENTS UNLOCKED</h3>
+        <div class="ach-list" id="ach-list"></div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn btn--huge" id="btn-replay">↺ PLAY AGAIN</button>
+        <button class="btn btn--ghost" id="btn-share">⇪ COPY MY RESULT</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-foot">
+    <span>GAMEGUIDE v1.0</span> · <span>built for fun, no data leaves your machine</span>
+  </footer>
+
+  <script src="js/games.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
