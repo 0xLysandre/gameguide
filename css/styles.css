@@ -438,6 +438,7 @@ body::before { /* vignette + dark gradient */
   opacity: 0; transition: opacity .25s ease;
 }
 .donate-overlay.show { opacity: 1; }
+.donate-overlay[hidden] { display: none; }
 
 .donate-modal {
   width: min(560px, 100%); position: relative;
