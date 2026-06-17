@@ -479,15 +479,10 @@ body::before { /* vignette + dark gradient */
 }
 .coin-row.copied .coin-sym { border-color: #000; color: #000; }
 .coin-info { display: flex; flex-direction: column; min-width: 0; flex: 1; }
-.coin-name { font-family: var(--font-display); font-size: .55rem; color: var(--cyan); margin-bottom: .35rem; }
+.coin-name { font-family: var(--font-display); font-size: .6rem; color: var(--cyan); }
 .coin-row.copied .coin-name { color: #000; }
 .coin-name em { font-style: normal; color: var(--neon-2); }
 .coin-row.copied .coin-name em { color: #000; }
-.coin-addr {
-  font-family: var(--font-term); font-size: 1rem; color: var(--ink-dim);
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
-}
-.coin-row.copied .coin-addr { color: #1a0033; }
 .coin-copy {
   font-family: var(--font-display); font-size: .5rem; color: var(--acid);
   border: 2px solid currentColor; padding: .35rem .45rem; flex-shrink: 0; letter-spacing: 1px;

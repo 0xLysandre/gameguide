@@ -44,7 +44,6 @@
         `<span class="coin-sym">${c.emoji}</span>
          <span class="coin-info">
            <span class="coin-name">${c.name} <em>${c.sym}</em></span>
-           <span class="coin-addr">${c.addr}</span>
          </span>
          <span class="coin-copy">COPY</span>`;
       row.addEventListener("click", () => {
