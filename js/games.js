@@ -574,6 +574,88 @@ const GAMES = [
     year: 2023, emoji: "🔦", platform: "Everything",
     blurb: "A mind-bending survival horror about a writer trapped in his own nightmare. Stylish, scary, weird.",
     tags: t({ horror:5, story:5, action:3, puzzle:3, explore:2 })
+  },
+
+  /* ---- RESIDENT EVIL series ---- */
+  {
+    name: "Resident Evil (Remake)",
+    year: 2002, emoji: "🏚️", platform: "Everything",
+    blurb: "The mansion that started it all, beautifully remade. Fixed cameras, fixed terror, zero ammo.",
+    tags: t({ horror:5, puzzle:4, challenge:4, story:2, retro:2 })
+  },
+  {
+    name: "Resident Evil 3 (Remake)",
+    year: 2020, emoji: "💉", platform: "Everything",
+    blurb: "Outrun the relentless Nemesis through a collapsing Raccoon City. Fast, frantic, ferociously chased.",
+    tags: t({ horror:5, action:4, challenge:3, story:2, short:2 })
+  },
+  {
+    name: "Resident Evil 4 (Remake)",
+    year: 2023, emoji: "🪓", platform: "Everything",
+    blurb: "The action-horror masterpiece, remade. Villagers, parasites, and the best inventory Tetris around.",
+    tags: t({ action:5, horror:4, challenge:3, story:3, explore:2 })
+  },
+  {
+    name: "Resident Evil 5",
+    year: 2009, emoji: "☀️", platform: "Everything",
+    blurb: "Co-op horror under the African sun. Grab a partner, manage the chaos, blast the infected together.",
+    tags: t({ action:5, social:4, horror:2, story:2 })
+  },
+  {
+    name: "Resident Evil 6",
+    year: 2012, emoji: "🌆", platform: "Everything",
+    blurb: "Four intertwining campaigns and full-throttle action. Maximalist, messy, unapologetically explosive.",
+    tags: t({ action:5, social:3, horror:2, story:3 })
+  },
+  {
+    name: "Resident Evil 7: Biohazard",
+    year: 2017, emoji: "🪰", platform: "Everything",
+    blurb: "First-person, back-to-basics dread in a rotting Louisiana estate. The Bakers want you for dinner.",
+    tags: t({ horror:5, story:3, puzzle:3, explore:2, challenge:2 })
+  },
+  {
+    name: "Resident Evil Village",
+    year: 2021, emoji: "🏰", platform: "Everything",
+    blurb: "Gothic horror across a snowy village of werewolves and a very tall vampire countess. A wild ride.",
+    tags: t({ horror:4, action:4, story:3, explore:3, puzzle:2 })
+  },
+
+  /* ---- DOOM series ---- */
+  {
+    name: "DOOM (1993)",
+    year: 1993, emoji: "👹", platform: "Everything",
+    blurb: "The granddaddy of shooters. Shotgun, sprint, slaughter. Still runs on literally everything.",
+    tags: t({ action:5, retro:5, scifi:3, horror:3, short:2 })
+  },
+  {
+    name: "DOOM II: Hell on Earth",
+    year: 1994, emoji: "🔫", platform: "Everything",
+    blurb: "More demons, bigger maps, and the legendary Super Shotgun. The blueprint for the genre.",
+    tags: t({ action:5, retro:5, scifi:3, horror:3 })
+  },
+  {
+    name: "DOOM 64",
+    year: 1997, emoji: "🌑", platform: "Everything",
+    blurb: "The moody, atmospheric cousin. Darker, creepier, and meaner than its siblings. A cult classic.",
+    tags: t({ action:4, retro:4, horror:4, scifi:3 })
+  },
+  {
+    name: "DOOM 3",
+    year: 2004, emoji: "🔦", platform: "Everything",
+    blurb: "The horror reboot. Pitch-black corridors, jump scares, and the eternal flashlight-or-gun dilemma.",
+    tags: t({ horror:5, action:4, scifi:4, story:2 })
+  },
+  {
+    name: "DOOM (2016)",
+    year: 2016, emoji: "🤘", platform: "Everything",
+    blurb: "The triumphant reboot. Glory-kill, never stop moving, let the riffs carry you through hell.",
+    tags: t({ action:5, challenge:3, scifi:3, horror:2, short:2 })
+  },
+  {
+    name: "DOOM: The Dark Ages",
+    year: 2025, emoji: "🛡️", platform: "Everything",
+    blurb: "A medieval-tech prequel. Trade the dash for a shield-saw and stand-and-bang demon-slaying.",
+    tags: t({ action:5, challenge:3, fantasy:2, scifi:3, horror:2 })
   }
 ];
 
