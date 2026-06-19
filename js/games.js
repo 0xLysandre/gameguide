@@ -382,6 +382,198 @@ const GAMES = [
     year: 2023, emoji: "🌼", platform: "Switch",
     blurb: "Command tiny plant armies in a chill real-time strategy puzzle. Surprisingly tense, deeply cute.",
     tags: t({ strategy:4, chill:3, puzzle:3, explore:3, short:2 })
+  },
+  {
+    name: "Grand Theft Auto V",
+    year: 2013, emoji: "🚗", platform: "Everything",
+    blurb: "Three crooks, one sprawling city, infinite chaos. The sandbox you keep coming back to.",
+    tags: t({ action:4, explore:4, story:4, social:3, compete:2 })
+  },
+  {
+    name: "The Elder Scrolls V: Skyrim",
+    year: 2011, emoji: "🐲", platform: "Everything",
+    blurb: "Take an arrow to the knee, then 300 hours of fantasy wandering. Mods optional, addiction included.",
+    tags: t({ explore:5, fantasy:5, story:4, action:3, creative:2 })
+  },
+  {
+    name: "Tears of the Kingdom",
+    year: 2023, emoji: "⚙️", platform: "Switch",
+    blurb: "Hyrule again, now with physics-defying contraptions. Build a flying death-machine, somehow.",
+    tags: t({ explore:5, creative:4, fantasy:5, action:3, puzzle:3 })
+  },
+  {
+    name: "God of War (2018)",
+    year: 2018, emoji: "🪓", platform: "PC / PlayStation",
+    blurb: "A grizzled dad, his axe, and his son trek through Norse myth. Brutal combat, real heart.",
+    tags: t({ action:5, story:5, fantasy:4, explore:3, challenge:3 })
+  },
+  {
+    name: "The Last of Us Part I",
+    year: 2022, emoji: "🍄", platform: "PC / PlayStation",
+    blurb: "A post-apocalyptic road trip about love and loss (and fungus zombies). Devastating, gorgeous.",
+    tags: t({ story:5, action:4, horror:3, explore:2, challenge:2 })
+  },
+  {
+    name: "Bloodborne",
+    year: 2015, emoji: "🩸", platform: "PlayStation",
+    blurb: "Aggressive, gothic, cosmic horror Souls. Trick weapons, eldritch dread, the best vibes in dread.",
+    tags: t({ action:5, challenge:5, horror:4, fantasy:3, explore:3 })
+  },
+  {
+    name: "Dead Cells",
+    year: 2018, emoji: "🦴", platform: "Everything",
+    blurb: "Lightning-fast roguelite metroidvania. Die, mutate, run again. The dodge-roll is everything.",
+    tags: t({ action:5, challenge:4, retro:3, short:3, explore:2 })
+  },
+  {
+    name: "Cult of the Lamb",
+    year: 2022, emoji: "🐑", platform: "Everything",
+    blurb: "Run a creepy-cute cult by day, roguelite dungeon-crawl by night. Indoctrinate adorably.",
+    tags: t({ strategy:3, action:3, creative:3, horror:2, short:2, social:1 })
+  },
+  {
+    name: "Stray",
+    year: 2022, emoji: "🐈", platform: "Everything",
+    blurb: "Be a cat in a neon cyber-city. Knock things over, solve gentle puzzles, melt hearts.",
+    tags: t({ explore:4, story:3, scifi:4, puzzle:3, chill:3, short:3 })
+  },
+  {
+    name: "Dave the Diver",
+    year: 2023, emoji: "🤿", platform: "Everything",
+    blurb: "Spearfish by day, run a sushi restaurant by night. Genre-blending, endlessly charming chaos.",
+    tags: t({ explore:3, chill:3, strategy:3, creative:2, short:2, retro:2 })
+  },
+  {
+    name: "Pizza Tower",
+    year: 2023, emoji: "🍕", platform: "PC / Console",
+    blurb: "A frantic, hand-drawn platformer with cartoon energy turned to 11. Speed is your only friend.",
+    tags: t({ action:4, challenge:4, retro:5, short:3, creative:1 })
+  },
+  {
+    name: "Lethal Company",
+    year: 2023, emoji: "📡", platform: "PC",
+    blurb: "Loot abandoned moons for quota with friends. Co-op horror comedy where everyone dies laughing.",
+    tags: t({ horror:4, social:5, challenge:3, short:3, scifi:3 })
+  },
+  {
+    name: "Helldivers 2",
+    year: 2024, emoji: "🪖", platform: "PC / PlayStation",
+    blurb: "Spread managed democracy via orbital strike. Chaotic co-op shooting and glorious friendly fire.",
+    tags: t({ action:5, social:5, compete:2, scifi:4, challenge:3 })
+  },
+  {
+    name: "Palworld",
+    year: 2024, emoji: "🦖", platform: "PC / Xbox",
+    blurb: "Catch creatures, then put them to work in your factory. Cozy, chaotic, faintly unhinged.",
+    tags: t({ creative:4, explore:4, action:3, social:3, strategy:3 })
+  },
+  {
+    name: "Lies of P",
+    year: 2023, emoji: "🎻", platform: "Everything",
+    blurb: "A grim Pinocchio Souls-like in a fallen Belle Époque city. Stylish, punishing, surprisingly deep.",
+    tags: t({ action:5, challenge:5, story:3, horror:3, explore:3 })
+  },
+  {
+    name: "Frostpunk",
+    year: 2018, emoji: "❄️", platform: "Everything",
+    blurb: "Lead the last city on a frozen Earth. Every survival choice costs someone something. Bleak, brilliant.",
+    tags: t({ strategy:5, challenge:4, story:3, scifi:2 })
+  },
+  {
+    name: "RimWorld",
+    year: 2018, emoji: "🛖", platform: "PC / Console",
+    blurb: "A colony sim story generator. Your settlers will starve, feud, and form a cannibal cult. Emergent gold.",
+    tags: t({ strategy:5, creative:4, story:3, challenge:3, scifi:2 })
+  },
+  {
+    name: "Dwarf Fortress",
+    year: 2022, emoji: "⛏️", platform: "PC",
+    blurb: "The deepest simulation ever made, now with graphics. Losing is fun. Truly losing is funner.",
+    tags: t({ strategy:5, creative:5, challenge:5, fantasy:3, retro:2 })
+  },
+  {
+    name: "Into the Breach",
+    year: 2018, emoji: "🤖", platform: "Everything",
+    blurb: "Tiny, perfect turn-based mech tactics. Every move is a chess puzzle against giant bugs. Flawless.",
+    tags: t({ strategy:5, puzzle:5, scifi:3, short:3, challenge:3 })
+  },
+  {
+    name: "Cocoon",
+    year: 2023, emoji: "🪲", platform: "Everything",
+    blurb: "Worlds-within-orbs puzzle adventure from the Limbo team. Elegant, wordless, brain-tickling.",
+    tags: t({ puzzle:5, explore:3, scifi:3, chill:2, short:3 })
+  },
+  {
+    name: "The Stanley Parable: Ultra Deluxe",
+    year: 2022, emoji: "🚪", platform: "Everything",
+    blurb: "A narrator, a series of choices, and a game that delights in messing with you. Funny and clever.",
+    tags: t({ story:5, puzzle:2, explore:2, short:3 })
+  },
+  {
+    name: "What Remains of Edith Finch",
+    year: 2017, emoji: "🏚️", platform: "Everything",
+    blurb: "Wander a strange family home, unspooling beautiful, tragic vignettes. A short, perfect ache.",
+    tags: t({ story:5, explore:3, chill:2, short:4 })
+  },
+  {
+    name: "Pentiment",
+    year: 2022, emoji: "📜", platform: "PC / Xbox",
+    blurb: "A hand-illustrated medieval murder mystery told like an illuminated manuscript. Quietly extraordinary.",
+    tags: t({ story:5, puzzle:3, explore:2, chill:2 })
+  },
+  {
+    name: "Forza Horizon 5",
+    year: 2021, emoji: "🏁", platform: "PC / Xbox",
+    blurb: "An open-world racing playground across a gorgeous Mexico. Drive anything, anywhere, gloriously fast.",
+    tags: t({ explore:4, action:3, social:3, compete:3, chill:2, short:2 })
+  },
+  {
+    name: "Splatoon 3",
+    year: 2022, emoji: "🦑", platform: "Switch",
+    blurb: "Ink-splatting team shooter that's all style and squids. Turf war chaos, zero gore, max fresh.",
+    tags: t({ action:4, compete:4, social:4, short:3, creative:1 })
+  },
+  {
+    name: "Teamfight Tactics",
+    year: 2019, emoji: "♟️", platform: "PC / Mobile",
+    blurb: "Auto-battler chess on a knife's edge. Build a comp, roll the dice, climb the ladder. Cerebral PvP.",
+    tags: t({ strategy:5, compete:4, puzzle:2, fantasy:2 })
+  },
+  {
+    name: "Brotato",
+    year: 2023, emoji: "🥔", platform: "Everything",
+    blurb: "A potato with six guns survives waves of aliens. Pure, silly, perfectly-tuned arena roguelite.",
+    tags: t({ action:4, short:5, challenge:3, retro:3, scifi:2 })
+  },
+  {
+    name: "Dredge",
+    year: 2023, emoji: "🎣", platform: "Everything",
+    blurb: "A cozy fishing game that turns to cosmic horror after dark. Don't sail at night. Don't.",
+    tags: t({ explore:4, horror:3, chill:2, story:3, puzzle:2, short:2 })
+  },
+  {
+    name: "A Short Hike",
+    year: 2019, emoji: "🐦", platform: "Everything",
+    blurb: "Climb a mountain, chat with friendly critters, glide home. A gentle hour of pure good feelings.",
+    tags: t({ chill:5, explore:4, short:5, creative:1 })
+  },
+  {
+    name: "Risk of Rain 2",
+    year: 2020, emoji: "☔", platform: "Everything",
+    blurb: "A 3D roguelite where time-scaling difficulty means power-creep arms race vs the clock. Co-op bliss.",
+    tags: t({ action:5, social:4, challenge:4, scifi:3, short:2 })
+  },
+  {
+    name: "Marvel's Spider-Man 2",
+    year: 2023, emoji: "🕸️", platform: "PlayStation",
+    blurb: "Web-swing across New York with the best traversal in games. Punchy combat, blockbuster story.",
+    tags: t({ action:5, story:4, explore:4, short:2 })
+  },
+  {
+    name: "Alan Wake 2",
+    year: 2023, emoji: "🔦", platform: "Everything",
+    blurb: "A mind-bending survival horror about a writer trapped in his own nightmare. Stylish, scary, weird.",
+    tags: t({ horror:5, story:5, action:3, puzzle:3, explore:2 })
   }
 ];
 

@@ -268,7 +268,7 @@
     "booting matchmaker.exe",
     "reading your vibe vector",
     "weighting chaos coefficients",
-    "cross-referencing 57 worlds",
+    "cross-referencing " + window.GAMES.length + " worlds",
     "rejecting bad recommendations",
     "consulting the neon oracle",
     "compiling your destiny"
